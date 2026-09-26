@@ -1,0 +1,30 @@
+// Terjemahan nama Legendary (Indonesia → English)
+export const LEGENDARY_EN = {
+  'Iblis Kecil': 'Little Devil',
+  'Hantu Imut': 'Cute Ghost',
+  'Bajak Laut': 'Pirate',
+  'Ratu Es': 'Ice Queen',
+  'Vampir': 'Vampire',
+  'Dewi Matahari': 'Sun Goddess',
+  'Naga Kecil': 'Little Dragon',
+  'Penyihir': 'Witch',
+  'Putri Duyung': 'Mermaid',
+  'Malaikat': 'Angel',
+  'Peri Gigi': 'Tooth Fairy',
+  'Mochi Emas': 'Golden Mochi',
+  'Peri Bunga': 'Flower Fairy',
+  'Rubah Ekor Sembilan': 'Nine-Tailed Fox',
+  'Zombie Lucu': 'Cute Zombie',
+  'Putri Kerajaan': 'Royal Princess',
+  'Pangeran': 'Prince',
+  'Dewi Bulan': 'Moon Goddess',
+  'Peri Salju': 'Snow Fairy',
+  'Penjaga Awan': 'Cloud Keeper',
+  'Roh Hutan': 'Forest Spirit',
+  'Penyihir Bintang': 'Star Witch',
+  'Kucing Siluman': 'Phantom Cat',
+  'Ksatria': 'Knight',
+  'Mochi Pelangi': 'Rainbow Mochi',
+}
+
+export const toEnglish = (value) => LEGENDARY_EN[value] ?? value

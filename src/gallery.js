@@ -22,7 +22,7 @@ export async function initGallery({ dataUrl, kind }) {
 
   grid.innerHTML = items.map((item, index) => {
     const hasRare = item.attributes.some((a) => a.rare && a.trait_type !== 'Type')
-    const character = attr(item, 'Character')
+    const character = attr(item, 'Legendary') || attr(item, 'Character')
     const label = character ? `#${pad(item.id)} · ${character}` : `#${pad(item.id)}`
 
     return `

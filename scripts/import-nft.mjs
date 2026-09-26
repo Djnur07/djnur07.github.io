@@ -4,6 +4,7 @@ import { readFileSync, readdirSync, mkdirSync, copyFileSync, writeFileSync, rmSy
 import { join } from 'node:path'
 import { homedir } from 'node:os'
 import { execFileSync } from 'node:child_process'
+import { toEnglish } from './legendary-en.mjs'
 
 const SOURCE = join(homedir(), 'Documents', 'Mochi Friend NFT')
 const MOCHI_FROM = 1
@@ -65,7 +66,7 @@ function prepare(m, folder) {
     thumb: `/${folder}/thumbs/${m.id}.png`,
     attributes: (m.attributes || []).map((a) => {
       const percent = percentOf(a)
-      return { trait_type: a.trait_type, value: a.value, percent, rare: percent <= RARE_PERCENT }
+      return { trait_type: a.trait_type, value: toEnglish(a.value), percent, rare: percent <= RARE_PERCENT }
     }),
   }
 }
