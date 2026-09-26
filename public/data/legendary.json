@@ -1,0 +1,212 @@
+[
+  {
+    "id": 203,
+    "name": "Mochi Friend #0203",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/203.png",
+    "thumb": "/legendary/thumbs/203.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Iblis Kecil",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Mochi Friend #0247",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/247.png",
+    "thumb": "/legendary/thumbs/247.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Hantu Imut",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "name": "Mochi Friend #0300",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/300.png",
+    "thumb": "/legendary/thumbs/300.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Bajak Laut",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "name": "Mochi Friend #0377",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/377.png",
+    "thumb": "/legendary/thumbs/377.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Ratu Es",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "name": "Mochi Friend #0494",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/494.png",
+    "thumb": "/legendary/thumbs/494.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Vampir",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "name": "Mochi Friend #0564",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/564.png",
+    "thumb": "/legendary/thumbs/564.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Dewi Matahari",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "name": "Mochi Friend #0584",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/584.png",
+    "thumb": "/legendary/thumbs/584.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Naga Kecil",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 636,
+    "name": "Mochi Friend #0636",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/636.png",
+    "thumb": "/legendary/thumbs/636.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Penyihir",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 665,
+    "name": "Mochi Friend #0665",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/665.png",
+    "thumb": "/legendary/thumbs/665.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Putri Duyung",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  },
+  {
+    "id": 671,
+    "name": "Mochi Friend #0671",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/legendary/images/671.png",
+    "thumb": "/legendary/thumbs/671.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Legendary",
+        "percent": 1,
+        "rare": true
+      },
+      {
+        "trait_type": "Legendary",
+        "value": "Malaikat",
+        "percent": 0,
+        "rare": true
+      }
+    ]
+  }
+]

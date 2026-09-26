@@ -1,0 +1,2852 @@
+[
+  {
+    "id": 1,
+    "name": "Mochi Friend #0001",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/1.png",
+    "thumb": "/mochi/thumbs/1.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Sky Blue",
+        "percent": 12.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mint",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tiny Smile",
+        "percent": 15.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Mint Dress",
+        "percent": 15.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Green Mochi",
+        "percent": 10.5,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mochi Friend #0002",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/2.png",
+    "thumb": "/mochi/thumbs/2.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Brown",
+        "percent": 7.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Halo",
+        "percent": 5.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Bunny Suit",
+        "percent": 1.9,
+        "rare": true
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Golden Mochi",
+        "percent": 2.6,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mochi Friend #0003",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/3.png",
+    "thumb": "/mochi/thumbs/3.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Lavender",
+        "percent": 14.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Star Eyes",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Shy Blush",
+        "percent": 6.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Halo",
+        "percent": 5.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Kimono",
+        "percent": 5.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Onigiri",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mochi Friend #0004",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/4.png",
+    "thumb": "/mochi/thumbs/4.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Star Eyes",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Overalls",
+        "percent": 9.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Boba Tea",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mochi Friend #0005",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/5.png",
+    "thumb": "/mochi/thumbs/5.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Shy Blush",
+        "percent": 6.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Ribbon Bow",
+        "percent": 12.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pajamas",
+        "percent": 7.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Boba Tea",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mochi Friend #0006",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/6.png",
+    "thumb": "/mochi/thumbs/6.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Black",
+        "percent": 7.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Shy Blush",
+        "percent": 6.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Ribbon Bow",
+        "percent": 12.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sweater Vest",
+        "percent": 8.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Boba Tea",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mochi Friend #0007",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/7.png",
+    "thumb": "/mochi/thumbs/7.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Peach",
+        "percent": 13.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Strawberry Red",
+        "percent": 6.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tiny Smile",
+        "percent": 15.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Lavender Hoodie",
+        "percent": 11.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Mochi Friend",
+        "percent": 14.9,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Mochi Friend #0008",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/8.png",
+    "thumb": "/mochi/thumbs/8.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Peach",
+        "percent": 13.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Pink",
+        "percent": 12.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised",
+        "percent": 9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Strawberry Pin",
+        "percent": 8.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pink Dress",
+        "percent": 14.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mochi Friend #0009",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/9.png",
+    "thumb": "/mochi/thumbs/9.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Peach",
+        "percent": 13.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Cream",
+        "percent": 9.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tongue Out",
+        "percent": 8.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Devil Horns",
+        "percent": 2.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Mochi Friend",
+        "percent": 14.9,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Mochi Friend #0010",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/10.png",
+    "thumb": "/mochi/thumbs/10.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Peach",
+        "percent": 13.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Overalls",
+        "percent": 9.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Mochi Friend #0011",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/11.png",
+    "thumb": "/mochi/thumbs/11.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Peach",
+        "percent": 13.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Sky Blue",
+        "percent": 10,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Heart Eyes",
+        "percent": 5.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Dango",
+        "percent": 6.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Mochi Friend #0012",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/12.png",
+    "thumb": "/mochi/thumbs/12.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Brown",
+        "percent": 7.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Flower Clip",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pajamas",
+        "percent": 7.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Mochi Friend #0013",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/13.png",
+    "thumb": "/mochi/thumbs/13.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Lavender",
+        "percent": 14.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Strawberry Pin",
+        "percent": 8.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Strawberry",
+        "percent": 7.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Mochi Friend #0014",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/14.png",
+    "thumb": "/mochi/thumbs/14.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Shy Blush",
+        "percent": 6.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Raincoat",
+        "percent": 7.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Star Wand",
+        "percent": 3.8,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Mochi Friend #0015",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/15.png",
+    "thumb": "/mochi/thumbs/15.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Strawberry Red",
+        "percent": 6.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Flower Clip",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Mint Dress",
+        "percent": 15.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Star Wand",
+        "percent": 3.8,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Mochi Friend #0016",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/16.png",
+    "thumb": "/mochi/thumbs/16.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Pink",
+        "percent": 12.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Sleepy",
+        "percent": 5.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Flower Clip",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Star Wand",
+        "percent": 3.8,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Mochi Friend #0017",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/17.png",
+    "thumb": "/mochi/thumbs/17.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Lavender",
+        "percent": 14.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised",
+        "percent": 9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Raincoat",
+        "percent": 7.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Dango",
+        "percent": 6.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mochi Friend #0018",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/18.png",
+    "thumb": "/mochi/thumbs/18.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Strawberry Red",
+        "percent": 6.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Galaxy Eyes",
+        "percent": 3.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Shy Blush",
+        "percent": 6.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Star Clip",
+        "percent": 5.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Lavender Hoodie",
+        "percent": 11.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Mochi Friend #0019",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/19.png",
+    "thumb": "/mochi/thumbs/19.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Sky Blue",
+        "percent": 12.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Pink",
+        "percent": 12.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Green Sparkle",
+        "percent": 14.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pajamas",
+        "percent": 7.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Onigiri",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Mochi Friend #0020",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/20.png",
+    "thumb": "/mochi/thumbs/20.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Lavender",
+        "percent": 14.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Cream",
+        "percent": 9.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cat Ears",
+        "percent": 8.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pink Dress",
+        "percent": 14.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Mochi Friend",
+        "percent": 14.9,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Mochi Friend #0021",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/21.png",
+    "thumb": "/mochi/thumbs/21.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Sky Blue",
+        "percent": 12.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pink Dress",
+        "percent": 14.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Mochi Friend #0022",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/22.png",
+    "thumb": "/mochi/thumbs/22.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mint",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Star Eyes",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pajamas",
+        "percent": 7.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Boba Tea",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Mochi Friend #0023",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/23.png",
+    "thumb": "/mochi/thumbs/23.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Lavender",
+        "percent": 14.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Shy Blush",
+        "percent": 6.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Flower Clip",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Kimono",
+        "percent": 5.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Onigiri",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Mochi Friend #0024",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/24.png",
+    "thumb": "/mochi/thumbs/24.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Peach",
+        "percent": 13.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Silver",
+        "percent": 2.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Green Sparkle",
+        "percent": 14.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Surprised",
+        "percent": 9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Chef Apron",
+        "percent": 5.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Mochi Friend #0025",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/25.png",
+    "thumb": "/mochi/thumbs/25.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Black",
+        "percent": 7.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Heart Eyes",
+        "percent": 5.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Beret",
+        "percent": 5.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Chef Apron",
+        "percent": 5.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Star Wand",
+        "percent": 3.8,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Mochi Friend #0026",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/26.png",
+    "thumb": "/mochi/thumbs/26.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Sky Blue",
+        "percent": 10,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sleepy Bubble",
+        "percent": 4.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Strawberry Pin",
+        "percent": 8.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Mint Dress",
+        "percent": 15.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Star Wand",
+        "percent": 3.8,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Mochi Friend #0027",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/27.png",
+    "thumb": "/mochi/thumbs/27.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Lavender",
+        "percent": 14.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mint",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tiny Smile",
+        "percent": 15.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Devil Horns",
+        "percent": 2.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Magical Girl",
+        "percent": 1.7,
+        "rare": true
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Boba Tea",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Mochi Friend #0028",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/28.png",
+    "thumb": "/mochi/thumbs/28.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Lavender",
+        "percent": 14.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Black",
+        "percent": 7.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Dango",
+        "percent": 6.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Mochi Friend #0029",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/29.png",
+    "thumb": "/mochi/thumbs/29.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Sky Blue",
+        "percent": 12.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Star Eyes",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tongue Out",
+        "percent": 8.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Overalls",
+        "percent": 9.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Mochi Friend",
+        "percent": 14.9,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Mochi Friend #0030",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/30.png",
+    "thumb": "/mochi/thumbs/30.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Lavender",
+        "percent": 14.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Strawberry Pin",
+        "percent": 8.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sweater Vest",
+        "percent": 8.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Onigiri",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Mochi Friend #0031",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/31.png",
+    "thumb": "/mochi/thumbs/31.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Green Sparkle",
+        "percent": 14.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Ribbon Bow",
+        "percent": 12.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pajamas",
+        "percent": 7.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Onigiri",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Mochi Friend #0032",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/32.png",
+    "thumb": "/mochi/thumbs/32.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Cream",
+        "percent": 9.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tongue Out",
+        "percent": 8.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headphones",
+        "percent": 5.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Overalls",
+        "percent": 9.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Strawberry",
+        "percent": 7.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Mochi Friend #0033",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/33.png",
+    "thumb": "/mochi/thumbs/33.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Cream",
+        "percent": 9.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Lavender Hoodie",
+        "percent": 11.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Mochi Friend",
+        "percent": 14.9,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Mochi Friend #0034",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/34.png",
+    "thumb": "/mochi/thumbs/34.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Lavender",
+        "percent": 14.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mint",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tongue Out",
+        "percent": 8.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Mint Dress",
+        "percent": 15.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Bunny Plush",
+        "percent": 6.1,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Mochi Friend #0035",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/35.png",
+    "thumb": "/mochi/thumbs/35.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Pink",
+        "percent": 12.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Flower Clip",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pink Dress",
+        "percent": 14.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Dango",
+        "percent": 6.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Mochi Friend #0036",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/36.png",
+    "thumb": "/mochi/thumbs/36.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Lavender",
+        "percent": 14.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Strawberry Red",
+        "percent": 6.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Galaxy Eyes",
+        "percent": 3.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tiny Smile",
+        "percent": 15.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Crown",
+        "percent": 4,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Onigiri",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Mochi Friend #0037",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/37.png",
+    "thumb": "/mochi/thumbs/37.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Peach",
+        "percent": 13.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Cream",
+        "percent": 9.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tongue Out",
+        "percent": 8.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pink Dress",
+        "percent": 14.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Boba Tea",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Mochi Friend #0038",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/38.png",
+    "thumb": "/mochi/thumbs/38.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Gold",
+        "percent": 2,
+        "rare": true
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Pink",
+        "percent": 12.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Mint Dress",
+        "percent": 15.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Green Mochi",
+        "percent": 10.5,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Mochi Friend #0039",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/39.png",
+    "thumb": "/mochi/thumbs/39.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Lavender",
+        "percent": 14.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Galaxy Eyes",
+        "percent": 3.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Chef Apron",
+        "percent": 5.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Boba Tea",
+        "percent": 9.2,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Mochi Friend #0040",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/40.png",
+    "thumb": "/mochi/thumbs/40.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Lavender",
+        "percent": 14.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Pink",
+        "percent": 12.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Devil Horns",
+        "percent": 2.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Raincoat",
+        "percent": 7.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Cupcake",
+        "percent": 5.1,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Mochi Friend #0041",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/41.png",
+    "thumb": "/mochi/thumbs/41.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Sky Blue",
+        "percent": 10,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Sleepy",
+        "percent": 5.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Halo",
+        "percent": 5.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pajamas",
+        "percent": 7.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Mochi Friend #0042",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/42.png",
+    "thumb": "/mochi/thumbs/42.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mint",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Dango",
+        "percent": 6.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Mochi Friend #0043",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/43.png",
+    "thumb": "/mochi/thumbs/43.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Sky Blue",
+        "percent": 10,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tiny Smile",
+        "percent": 15.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Overalls",
+        "percent": 9.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Dango",
+        "percent": 6.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Mochi Friend #0044",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/44.png",
+    "thumb": "/mochi/thumbs/44.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Brown",
+        "percent": 7.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Cat Ears",
+        "percent": 8.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pink Dress",
+        "percent": 14.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Dango",
+        "percent": 6.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Mochi Friend #0045",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/45.png",
+    "thumb": "/mochi/thumbs/45.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Pink",
+        "percent": 22.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Mint",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Shy Blush",
+        "percent": 6.9,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Star Clip",
+        "percent": 5.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Kimono",
+        "percent": 5.7,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Pink Mochi",
+        "percent": 13.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Mochi Friend #0046",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/46.png",
+    "thumb": "/mochi/thumbs/46.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Sky Blue",
+        "percent": 12.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Peach",
+        "percent": 10.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Cat Smile",
+        "percent": 26.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Flower Clip",
+        "percent": 9.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Mint Dress",
+        "percent": 15.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Mochi Friend",
+        "percent": 14.9,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Mochi Friend #0047",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/47.png",
+    "thumb": "/mochi/thumbs/47.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Mint",
+        "percent": 18.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Sky Blue",
+        "percent": 10,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Tiny Smile",
+        "percent": 15.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Ribbon Bow",
+        "percent": 12.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Pink Dress",
+        "percent": 14.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Mochi Friend",
+        "percent": 14.9,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Mochi Friend #0048",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/48.png",
+    "thumb": "/mochi/thumbs/48.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Gold",
+        "percent": 2.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Pink Sparkle",
+        "percent": 19.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Overalls",
+        "percent": 9.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Strawberry",
+        "percent": 7.3,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Mochi Friend #0049",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/49.png",
+    "thumb": "/mochi/thumbs/49.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Sky Blue",
+        "percent": 12.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Cream",
+        "percent": 9.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Blue Sparkle",
+        "percent": 17.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Pout",
+        "percent": 11.3,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Bunny Ear Clip",
+        "percent": 11.5,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Sailor Uniform",
+        "percent": 10.4,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Taiyaki",
+        "percent": 4.6,
+        "rare": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Mochi Friend #0050",
+    "description": "Cozy chibi keepers, each hugging their own little mochi friend.",
+    "image": "/mochi/images/50.png",
+    "thumb": "/mochi/thumbs/50.png",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Generative",
+        "percent": 99,
+        "rare": false
+      },
+      {
+        "trait_type": "Background",
+        "value": "Cream",
+        "percent": 10.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Hair",
+        "value": "Strawberry Red",
+        "percent": 6.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Eyes",
+        "value": "Violet Sparkle",
+        "percent": 23.8,
+        "rare": false
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Happy Open",
+        "percent": 16.1,
+        "rare": false
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "None",
+        "percent": 19.6,
+        "rare": false
+      },
+      {
+        "trait_type": "Outfit",
+        "value": "Overalls",
+        "percent": 9.2,
+        "rare": false
+      },
+      {
+        "trait_type": "Holding",
+        "value": "Bunny Plush",
+        "percent": 6.1,
+        "rare": false
+      }
+    ]
+  }
+]
