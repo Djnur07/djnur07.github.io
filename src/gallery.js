@@ -9,7 +9,7 @@ export async function initGallery({ dataUrl, kind }) {
   const grid = document.getElementById('grid')
   const count = document.getElementById('count')
 
-  const items = await fetch(dataUrl).then((r) => r.json())
+  const items = await fetch(dataUrl, { cache: 'no-cache' }).then((r) => r.json())
 
   // Keterangan di samping grid (tanpa angka supply)
   if (kind === 'legendary') {
