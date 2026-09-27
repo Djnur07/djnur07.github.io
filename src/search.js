@@ -4,6 +4,8 @@ import { initLightbox } from './lightbox.js'
 const SOURCES = [
   { url: '/data/mochi.json', collection: 'Mochi Friend' },
   { url: '/data/legendary.json', collection: 'Legendary' },
+  { url: '/data/chibi.json', collection: 'Chibi' },
+  { url: '/data/muse.json', collection: 'Muse' },
 ]
 
 const ICON_SEARCH = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>'
@@ -13,10 +15,9 @@ const escapeHtml = (s) =>
 
 function searchText(item, collection) {
   const attrs = (item.attributes || []).map((a) => `${a.trait_type} ${a.value}`)
-  return [collection, item.name, item.description, ...attrs].join(' ').toLowerCase()
+  return [collection, item.name, item.description, ...attrs, ...(item.keywords || [])].join(' ').toLowerCase()
 }
 
-// Data semua koleksi dimuat sekali saja, saat pertama kali mengetik
 let indexPromise = null
 function loadIndex() {
   if (!indexPromise) {
@@ -40,10 +41,14 @@ function titleOf(entry) {
   return String(entry.item.name || entry.collection).replace(/\s*#\d+/, '')
 }
 
-function matchedTraits(entry, terms) {
-  return (entry.item.attributes || [])
-    .filter((a) => a.trait_type !== 'Type' && terms.some((t) => String(a.value).toLowerCase().includes(t)))
-    .map((a) => a.value)
+// Trait / keyword yang cocok dengan kata kunci, untuk ditampilkan di bawah hasil
+function matchedWords(entry, terms) {
+  const values = [
+    ...(entry.item.attributes || []).filter((a) => a.trait_type !== 'Type').map((a) => String(a.value)),
+    ...(entry.item.keywords || []),
+  ]
+  const hits = values.filter((v) => terms.some((t) => v.toLowerCase().includes(t)))
+  return [...new Set(hits)].slice(0, 3)
 }
 
 export function initSearch() {
@@ -94,29 +99,27 @@ export function initSearch() {
       <p class="search-count">${results.length} result${results.length > 1 ? 's' : ''}</p>
       <div class="search-grid">
         ${results.map((entry, i) => {
-          const traits = matchedTraits(entry, terms)
+          const words = matchedWords(entry, terms)
           return `
             <button type="button" class="search-result" data-index="${i}">
               <img src="${entry.item.thumb || ''}" alt="" width="400" height="400" loading="lazy" />
               <span class="search-title">${escapeHtml(titleOf(entry))}</span>
-              <span class="search-sub">${escapeHtml(traits.length ? traits.join(' · ') : entry.collection)}</span>
+              <span class="search-sub">${escapeHtml(words.length ? words.join(' · ') : entry.collection)}</span>
             </button>`
         }).join('')}
       </div>`
   }
 
-  // Klik hasil → buka jendela detail untuk hasil pencarian
   panel.addEventListener('click', (e) => {
     const btn = e.target.closest('.search-result')
     if (!btn) return
     document.querySelectorAll('dialog.lightbox[data-search]').forEach((d) => d.remove())
-    const lightbox = initLightbox(results.map((r) => r.item))
+    const lightbox = initLightbox(results.map((r) => ({ ...r.item, collection: r.collection })))
     const dialogs = document.querySelectorAll('dialog.lightbox')
     dialogs[dialogs.length - 1].dataset.search = '1'
     lightbox.open(Number(btn.dataset.index))
   })
 
-  // Esc menutup panel; klik di luar panel juga menutup
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       input.value = ''

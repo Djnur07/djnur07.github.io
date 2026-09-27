@@ -2,12 +2,12 @@ const ICON_PREV = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" s
 const ICON_NEXT = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>'
 const ICON_CLOSE = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
 
-export function initLightbox(items) {
+export function initLightbox(items, { eyebrow } = {}) {
   const dialog = document.createElement('dialog')
   dialog.className = 'lightbox'
   dialog.innerHTML = `
     <div class="lb-card">
-      <div class="lb-media"><img class="lb-img" alt="" width="2000" height="2000" /></div>
+      <div class="lb-media"></div>
       <div class="lb-info">
         <span class="eyebrow lb-kind"></span>
         <h2 class="lb-name"></h2>
@@ -26,45 +26,81 @@ export function initLightbox(items) {
     </div>`
   document.body.appendChild(dialog)
 
-  const img = dialog.querySelector('.lb-img')
+  const media = dialog.querySelector('.lb-media')
   const kind = dialog.querySelector('.lb-kind')
   const name = dialog.querySelector('.lb-name')
   const desc = dialog.querySelector('.lb-desc')
+  const table = dialog.querySelector('.lb-attrs')
   const tbody = dialog.querySelector('tbody')
   const pos = dialog.querySelector('.lb-pos')
 
   let current = 0
 
+  function renderMedia(item, title) {
+    media.innerHTML = ''
+    media.dataset.fit = item.media ? 'contain' : 'cover'
+
+    if (item.media === 'video') {
+      const video = document.createElement('video')
+      video.className = 'lb-img'
+      video.src = item.video
+      if (item.thumb) video.poster = item.thumb
+      video.controls = true
+      video.autoplay = true
+      video.loop = true
+      video.muted = true
+      video.playsInline = true
+      video.setAttribute('aria-label', title)
+      media.appendChild(video)
+      return
+    }
+
+    // Gambar: tampilkan thumbnail dulu, lalu ganti ke versi besar
+    const img = document.createElement('img')
+    img.className = 'lb-img'
+    img.alt = title
+    img.src = item.thumb || item.image
+    media.appendChild(img)
+    if (item.image && item.image !== item.thumb) {
+      const full = new Image()
+      full.onload = () => {
+        if (items[current] === item) img.src = item.image
+      }
+      full.src = item.image
+    }
+  }
+
   function show(index) {
     current = (index + items.length) % items.length
     const item = items[current]
+    const attrs = item.attributes || []
 
-    const type = item.attributes.find((a) => a.trait_type === 'Type')
-    kind.textContent = type ? type.value : 'Mochi Friend'
-    name.textContent = (item.attributes.find((a) => a.trait_type === "Legendary") || {}).value || item.name.replace(/\s*#\d+/, "")
-    desc.textContent = item.description
-    pos.textContent = `${current + 1} of ${items.length}`
+    // Judul tanpa nomor token; Legendary pakai nama karakter
+    const type = attrs.find((a) => a.trait_type === 'Type')
+    const legendary = attrs.find((a) => a.trait_type === 'Legendary')
+    const title = legendary ? legendary.value : String(item.name || '').replace(/\s*#\d+/, '')
 
-    img.alt = item.name
-    img.src = item.thumb
-    const full = new Image()
-    full.onload = () => {
-      if (items[current] === item) img.src = item.image
-    }
-    full.src = item.image
+    kind.textContent = type ? type.value : (item.collection || eyebrow || 'Mochi Friend')
+    name.textContent = title
+    desc.textContent = item.description || ''
+    desc.hidden = !item.description
 
-    tbody.innerHTML = item.attributes
-      .filter((a) => a.trait_type !== 'Type')
+    const rows = attrs.filter((a) => a.trait_type !== 'Type')
+    table.hidden = rows.length === 0
+    tbody.innerHTML = rows
       .map((a) => `
         <tr>
           <th scope="row">${a.trait_type}</th>
           <td>
             ${a.rare ? '<span class="rare-badge">Rare</span>' : ''}
             <span>${a.value}</span>
-            <span class="lb-percent">${a.percent}%</span>
+            ${a.percent != null ? `<span class="lb-percent">${a.percent}%</span>` : ''}
           </td>
         </tr>`)
       .join('')
+
+    pos.textContent = `${current + 1} of ${items.length}`
+    renderMedia(item, title)
   }
 
   dialog.addEventListener('click', (e) => {
@@ -78,6 +114,11 @@ export function initLightbox(items) {
   dialog.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowLeft') show(current - 1)
     if (e.key === 'ArrowRight') show(current + 1)
+  })
+
+  // Hentikan video saat jendela ditutup
+  dialog.addEventListener('close', () => {
+    media.innerHTML = ''
   })
 
   return {

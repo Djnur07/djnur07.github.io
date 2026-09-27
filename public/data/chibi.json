@@ -1,0 +1,567 @@
+[
+  {
+    "id": "bandana-bee",
+    "name": "Gardener — Bandana & Bee",
+    "description": "Chibi gardener avatar in risograph style (Coral + Blue inks): Bandana, Braids hair, Star eyes, Striped Shirt, with a Bee, Polka Dots background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "coral",
+      "blue",
+      "mint",
+      "bandana",
+      "braids",
+      "zigzag",
+      "star",
+      "cat mouth",
+      "striped shirt",
+      "bee",
+      "polka dots",
+      "freckles"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/bandana-bee.png",
+    "thumb": "/chibi/thumbs/bandana-bee.png"
+  },
+  {
+    "id": "bandana-mushroom",
+    "name": "Gardener — Bandana & Mushroom",
+    "description": "Chibi gardener avatar in risograph style (Sunflower + Burgundy inks): Bandana, Long hair, Sleepy eyes, Raincoat, with a Mushroom, Halftone background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "sunflower",
+      "burgundy",
+      "sky blue",
+      "bandana",
+      "long",
+      "rounded",
+      "sleepy",
+      "smile",
+      "raincoat",
+      "mushroom"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/bandana-mushroom.png",
+    "thumb": "/chibi/thumbs/bandana-mushroom.png"
+  },
+  {
+    "id": "beanie-carrot",
+    "name": "Gardener — Beanie & Carrot",
+    "description": "Chibi gardener avatar in risograph style (Orange + Teal inks): Beanie, Braids hair, Happy Closed eyes, Hoodie, with a Carrot, Polka Dots background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "orange",
+      "teal",
+      "yellow",
+      "beanie",
+      "braids",
+      "zigzag",
+      "happy closed",
+      "open",
+      "hoodie",
+      "carrot",
+      "polka dots"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/beanie-carrot.png",
+    "thumb": "/chibi/thumbs/beanie-carrot.png"
+  },
+  {
+    "id": "beanie-watering-can",
+    "name": "Gardener — Beanie & Watering Can",
+    "description": "Chibi gardener avatar in risograph style (Violet + Black inks): Beanie, Bob hair, Wink eyes, Apron, with a Watering Can, Sun Rays background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "violet",
+      "black",
+      "yellow",
+      "beanie",
+      "bob",
+      "rounded",
+      "wink",
+      "tongue out",
+      "apron",
+      "watering can",
+      "sun rays"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/beanie-watering-can.png",
+    "thumb": "/chibi/thumbs/beanie-watering-can.png"
+  },
+  {
+    "id": "bucket-hat",
+    "name": "Gardener — Bucket Hat",
+    "description": "Chibi gardener avatar in risograph style (Fluorescent Pink + Blue inks): Bucket Hat, Bob hair, Normal eyes, Overalls, with a Watering Can, Diagonal Stripes background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "fluorescent pink",
+      "blue",
+      "yellow",
+      "bucket hat",
+      "bob",
+      "zigzag",
+      "normal",
+      "smile",
+      "overalls",
+      "watering can",
+      "diagonal stripes",
+      "freckles"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/bucket-hat.png",
+    "thumb": "/chibi/thumbs/bucket-hat.png"
+  },
+  {
+    "id": "bunny-hood",
+    "name": "Bunny Hood",
+    "description": "Pastel character in a white bunny-ear hood with pompom strings and sakura petals.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "character",
+      "bunny hood",
+      "pastel thick outline"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/bunny-hood.png",
+    "thumb": "/chibi/thumbs/bunny-hood.png"
+  },
+  {
+    "id": "cap-bee",
+    "name": "Gardener — Cap & Bee",
+    "description": "Chibi gardener avatar in risograph style (Red + Navy inks): Cap, Short hair, Normal eyes, Striped Shirt, with a Bee, Checkerboard background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "red",
+      "navy",
+      "mint",
+      "cap",
+      "short",
+      "zigzag",
+      "normal",
+      "surprised",
+      "striped shirt",
+      "bee",
+      "checkerboard",
+      "glasses"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/cap-bee.png",
+    "thumb": "/chibi/thumbs/cap-bee.png"
+  },
+  {
+    "id": "cap-carrot",
+    "name": "Gardener — Cap & Carrot",
+    "description": "Chibi gardener avatar in risograph style (Coral Red + Dark Green inks): Cap, Pigtails hair, Normal eyes, Hoodie, with a Carrot, Checkerboard background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "coral red",
+      "dark green",
+      "cream yellow",
+      "cap",
+      "pigtails",
+      "rounded",
+      "normal",
+      "open",
+      "hoodie",
+      "carrot",
+      "checkerboard",
+      "freckles"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/cap-carrot.png",
+    "thumb": "/chibi/thumbs/cap-carrot.png"
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "description": "Little chef with a puffy toque, red neckerchief and chef jacket on a warm polka-dot background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "character",
+      "chef",
+      "flat outline"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/chef.png",
+    "thumb": "/chibi/thumbs/chef.png"
+  },
+  {
+    "id": "detective",
+    "name": "Detective",
+    "description": "Hand-inked detective with fedora, trench coat and magnifying glass, cross-hatched shading.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "character",
+      "detective",
+      "ink line art"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/detective.png",
+    "thumb": "/chibi/thumbs/detective.png"
+  },
+  {
+    "id": "flower-crown-snail",
+    "name": "Gardener — Flower Crown & Snail",
+    "description": "Chibi gardener avatar in risograph style (Mint Green + Magenta inks): Flower Crown, Long hair, Happy Closed eyes, Raincoat, with a Snail, Diagonal Stripes background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "mint green",
+      "magenta",
+      "yellow",
+      "flower crown",
+      "long",
+      "zigzag",
+      "happy closed",
+      "cat mouth",
+      "raincoat",
+      "snail",
+      "diagonal stripes"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/flower-crown-snail.png",
+    "thumb": "/chibi/thumbs/flower-crown-snail.png"
+  },
+  {
+    "id": "flower-crown",
+    "name": "Gardener — Flower Crown",
+    "description": "Chibi gardener avatar in risograph style (Violet + Green inks): Flower Crown, Buns hair, Wink eyes, Apron, with a Sunflower, Sun Rays background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "violet",
+      "green",
+      "light pink",
+      "flower crown",
+      "buns",
+      "side part",
+      "wink",
+      "cat mouth",
+      "apron",
+      "sunflower",
+      "sun rays"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/flower-crown.png",
+    "thumb": "/chibi/thumbs/flower-crown.png"
+  },
+  {
+    "id": "forest-fairy",
+    "name": "Forest Fairy",
+    "description": "Watercolor forest fairy with leaf-and-flower crown, pointy ears and translucent wings.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "character",
+      "forest fairy",
+      "watercolor"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/forest-fairy.png",
+    "thumb": "/chibi/thumbs/forest-fairy.png"
+  },
+  {
+    "id": "gardener-original",
+    "name": "Gardener (Original)",
+    "description": "Riso-printed gardener with straw hat and sprout, pigtails and overalls on halftone yellow.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "character",
+      "gardener (original)",
+      "risograph"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/gardener-original.png",
+    "thumb": "/chibi/thumbs/gardener-original.png"
+  },
+  {
+    "id": "neon-gamer",
+    "name": "Neon Gamer",
+    "description": "Neon-lit gamer with cat-ear headphones and mic on a synthwave grid.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "character",
+      "neon gamer",
+      "neon glow"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/neon-gamer.png",
+    "thumb": "/chibi/thumbs/neon-gamer.png"
+  },
+  {
+    "id": "pirate",
+    "name": "Pirate",
+    "description": "Retro pirate with tricorn hat, eyepatch and striped shirt on a 70s rainbow sunset.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "character",
+      "pirate",
+      "retro 70s sticker"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/pirate.png",
+    "thumb": "/chibi/thumbs/pirate.png"
+  },
+  {
+    "id": "straw-hat-sprout-pot",
+    "name": "Gardener — Straw Hat & Sprout Pot",
+    "description": "Chibi gardener avatar in risograph style (Fluorescent Pink + Green inks): Straw Hat, Pigtails hair, Star eyes, Overalls, with a Sprout Pot, Circles background.",
+    "keywords": [
+      "chibi",
+      "avatar",
+      "sticker",
+      "risograph",
+      "halftone",
+      "gardener",
+      "character",
+      "fluorescent pink",
+      "green",
+      "yellow",
+      "straw hat",
+      "pigtails",
+      "side part",
+      "star",
+      "open",
+      "overalls",
+      "sprout pot",
+      "circles"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Artist",
+        "value": "Dinar Jaya Nurahman"
+      },
+      {
+        "trait_type": "Copyright",
+        "value": "© 2026 Dinar Jaya Nurahman. All rights reserved."
+      }
+    ],
+    "media": "image",
+    "image": "/chibi/images/straw-hat-sprout-pot.png",
+    "thumb": "/chibi/thumbs/straw-hat-sprout-pot.png"
+  }
+]

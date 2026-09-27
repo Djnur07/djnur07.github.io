@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mochi Friend · Collection</title>
+    <title>Mochi Friend · Collections</title>
   </head>
   <body data-page="mochi">
     <header id="site-header"></header>
     <main id="app" class="gallery-page">
       <aside class="gallery-info">
+        <a class="back-link" href="/collections/">← Collections</a>
         <span class="eyebrow">Collection</span>
         <h1>Mochi Friend</h1>
         <p class="gallery-intro">Cozy chibi keepers, each hugging their own little mochi friend.</p>
+        <nav class="subnav" aria-label="Mochi Friend">
+          <a href="/mochi/" aria-current="page">Generative</a>
+          <a href="/legendary/">Legendary 1/1</a>
+        </nav>
         <div class="gallery-count">
           <span>On display</span>
-          <strong id="count">Loading…</strong>
+          <strong id="count" data-caption="The first little keepers">Loading…</strong>
         </div>
         <p class="rare-legend"><span class="rare-dot"></span> Gold dot marks a rare trait</p>
       </aside>

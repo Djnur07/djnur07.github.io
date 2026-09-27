@@ -1,0 +1,529 @@
+[
+  {
+    "id": "muse-dreaming",
+    "name": "Dreaming",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "dream",
+      "crescent",
+      "moon",
+      "stars"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Dream, Crescent, Moon, Stars"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-dreaming.mp4",
+    "thumb": "/muse/thumbs/muse-dreaming.png"
+  },
+  {
+    "id": "muse-golden-hour",
+    "name": "Golden Hour",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "sunset",
+      "sundress",
+      "warm",
+      "light"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Sunset, Sundress, Warm, Light"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-golden-hour.mp4",
+    "thumb": "/muse/thumbs/muse-golden-hour.png"
+  },
+  {
+    "id": "muse-little-secret",
+    "name": "Little Secret",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "wink",
+      "bubbles",
+      "playful"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Wink, Bubbles, Playful"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-little-secret.mp4",
+    "thumb": "/muse/thumbs/muse-little-secret.png"
+  },
+  {
+    "id": "muse-masquerade",
+    "name": "Masquerade",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "masquerade",
+      "gold",
+      "mask",
+      "bokeh"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Masquerade, Gold, Mask, Bokeh"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-masquerade.mp4",
+    "thumb": "/muse/thumbs/muse-masquerade.png"
+  },
+  {
+    "id": "muse-moonlit-gown",
+    "name": "Moonlit Gown",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "velvet",
+      "gown",
+      "moon",
+      "halo",
+      "gold",
+      "dust"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Velvet, Gown, Moon, Halo, Gold, Dust"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-moonlit-gown.mp4",
+    "thumb": "/muse/thumbs/muse-moonlit-gown.png"
+  },
+  {
+    "id": "muse-poetry-in-code",
+    "name": "Poetry In Code",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "rain",
+      "glow"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Rain, Glow"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-poetry-in-code.mp4",
+    "thumb": "/muse/thumbs/muse-poetry-in-code.png"
+  },
+  {
+    "id": "muse-rain-letter",
+    "name": "Rain Letter",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "rain",
+      "lace",
+      "collar",
+      "melancholy"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Rain, Lace, Collar, Melancholy"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-rain-letter.mp4",
+    "thumb": "/muse/thumbs/muse-rain-letter.png"
+  },
+  {
+    "id": "muse-sakura-veil",
+    "name": "Sakura Veil",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "kimono",
+      "sakura",
+      "spring"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Kimono, Sakura, Spring"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-sakura-veil.mp4",
+    "thumb": "/muse/thumbs/muse-sakura-veil.png"
+  },
+  {
+    "id": "muse-sumi-ink",
+    "name": "Sumi Ink",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "ink",
+      "enso",
+      "monochrome"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Ink, Enso, Monochrome"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-sumi-ink.mp4",
+    "thumb": "/muse/thumbs/muse-sumi-ink.png"
+  },
+  {
+    "id": "muse-winter-pearl",
+    "name": "Winter Pearl",
+    "description": "",
+    "keywords": [
+      "the",
+      "silent",
+      "muse",
+      "Zelyth",
+      "Mochi",
+      "ZelythMochi",
+      "anime",
+      "code",
+      "art",
+      "creative",
+      "coding",
+      "generative",
+      "canvas",
+      "winter",
+      "snow",
+      "fur",
+      "stole"
+    ],
+    "attributes": [
+      {
+        "trait_type": "Series",
+        "value": "The Silent Muse"
+      },
+      {
+        "trait_type": "Medium",
+        "value": "Generative code art"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Winter, Snow, Fur, Stole"
+      },
+      {
+        "trait_type": "Duration",
+        "value": "10s"
+      },
+      {
+        "trait_type": "Resolution",
+        "value": "1600 × 2000"
+      },
+      {
+        "trait_type": "Artist",
+        "value": "@ZelythMochi"
+      }
+    ],
+    "media": "video",
+    "video": "/muse/videos/muse-winter-pearl.mp4",
+    "thumb": "/muse/thumbs/muse-winter-pearl.png"
+  }
+]

@@ -399,3 +399,77 @@ main {
 }
 .search-title { font-size: 12px; }
 .search-sub { font-size: 11px; }
+
+/* ---------- Collections ---------- */
+.collections-page { display: flex; flex-direction: column; gap: 28px; }
+.collections-head h1 { margin-top: 8px; font-size: clamp(32px, 4vw, 48px); }
+
+.collection-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.collection-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.collection-card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(43, 37, 48, 0.12); }
+.collection-card img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; background: var(--line-soft); }
+.card-body { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px 20px; }
+.card-title { display: flex; align-items: center; gap: 10px; font-family: var(--serif); font-size: 24px; font-weight: 600; }
+.card-tag { padding: 2px 8px; border-radius: 999px; background: var(--line-soft); font-family: var(--sans); font-size: 11px; font-weight: 700; color: var(--muted); }
+.card-text { font-size: 14px; line-height: 1.5; color: #5F545B; }
+
+/* ---------- Tautan kembali & tab Mochi ---------- */
+.back-link { font-size: 13px; color: var(--muted); text-decoration: none; }
+.back-link:hover { color: var(--ink); }
+.subnav { display: flex; gap: 20px; }
+.subnav a { min-height: 44px; display: inline-flex; align-items: center; font-size: 14px; font-weight: 500; color: var(--muted); text-decoration: none; }
+.subnav a[aria-current="page"] { color: var(--ink); font-weight: 700; box-shadow: inset 0 -2px 0 var(--ink); }
+
+/* ---------- Grid Chibi & Muse ---------- */
+.gallery { overflow-y: auto; max-height: 100%; padding: 4px; }
+.grid--art { --cols: 6; gap: 18px 14px; }
+.grid--art .thumb-label { font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.thumb-img video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.play-badge {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(43, 37, 48, 0.72);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Jendela detail: karya non-Mochi ---------- */
+.lb-media[data-fit="contain"] { background: #F1ECE6; }
+.lb-media[data-fit="contain"] .lb-img { object-fit: contain; }
+.lb-media video.lb-img { background: #1F1A24; }
+
+@media (max-width: 899px) {
+  .collection-cards { grid-template-columns: 1fr; }
+  .gallery { overflow: visible; max-height: none; }
+  .grid--art { --cols: 3; }
+}
+@media (max-width: 640px) {
+  .grid--art { --cols: 2; }
+}
+
+/* ---------- Collections: kartu lebih kecil ---------- */
+.collection-cards { grid-template-columns: repeat(auto-fill, minmax(200px, 260px)); gap: 20px; }
+.collection-card img { aspect-ratio: 1 / 1; }
+.card-body { gap: 4px; padding: 14px 16px 16px; }
+.card-title { font-size: 20px; }
+.card-text { font-size: 13px; }
+
+@media (max-width: 640px) {
+  .collection-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+}

@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "import-nft": "node scripts/import-nft.mjs"
+    "import-nft": "node scripts/import-nft.mjs",
+    "import-art": "node scripts/import-art.mjs"
   },
   "devDependencies": {
     "vite": "^8.3.0"

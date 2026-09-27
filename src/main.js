@@ -7,9 +7,16 @@ import { initLightbox } from './lightbox.js'
 renderNav()
 initSearch()
 
-async function setupGallery(dataUrl, kind) {
+const GALLERIES = {
+  mochi: { dataUrl: '/data/mochi.json' },
+  legendary: { dataUrl: '/data/legendary.json' },
+  chibi: { dataUrl: '/data/chibi.json', eyebrow: 'Chibi' },
+  muse: { dataUrl: '/data/muse.json', eyebrow: 'Muse' },
+}
+
+async function setupGallery(kind, { dataUrl, eyebrow }) {
   const items = await initGallery({ dataUrl, kind })
-  const lightbox = initLightbox(items)
+  const lightbox = initLightbox(items, { eyebrow })
 
   document.getElementById('grid').addEventListener('click', (e) => {
     const thumb = e.target.closest('.thumb')
@@ -18,6 +25,4 @@ async function setupGallery(dataUrl, kind) {
 }
 
 const page = document.body.dataset.page
-
-if (page === 'mochi') setupGallery('/data/mochi.json', 'mochi')
-if (page === 'legendary') setupGallery('/data/legendary.json', 'legendary')
+if (GALLERIES[page]) setupGallery(page, GALLERIES[page])

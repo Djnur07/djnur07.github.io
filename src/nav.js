@@ -1,8 +1,7 @@
 const LINKS = [
-  { page: 'home', href: '/', label: 'Home' },
-  { page: 'mochi', href: '/mochi/', label: 'Mochi Friend' },
-  { page: 'legendary', href: '/legendary/', label: 'Legendary' },
-  { page: 'about', href: '/about/', label: 'About' },
+  { href: '/', label: 'Home', pages: ['home'] },
+  { href: '/collections/', label: 'Collections', pages: ['collections', 'mochi', 'legendary', 'chibi', 'muse'] },
+  { href: '/about/', label: 'About', pages: ['about'] },
 ]
 
 const X_URL = 'https://x.com/ZelythMochi'
@@ -19,7 +18,7 @@ export function renderNav() {
   const current = document.body.dataset.page
 
   const links = LINKS.map((link) => {
-    const active = link.page === current ? ' aria-current="page"' : ''
+    const active = link.pages.includes(current) ? ' aria-current="page"' : ''
     return `<a href="${link.href}" class="nav-link"${active}>${link.label}</a>`
   }).join('')
 
