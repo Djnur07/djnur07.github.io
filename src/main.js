@@ -1,9 +1,11 @@
 import './style.css'
 import { renderNav } from './nav.js'
+import { initSearch } from './search.js'
 import { initGallery } from './gallery.js'
 import { initLightbox } from './lightbox.js'
 
 renderNav()
+initSearch()
 
 async function setupGallery(dataUrl, kind) {
   const items = await initGallery({ dataUrl, kind })
