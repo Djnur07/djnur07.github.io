@@ -41,7 +41,7 @@ export function initLightbox(items) {
 
     const type = item.attributes.find((a) => a.trait_type === 'Type')
     kind.textContent = type ? type.value : 'Mochi Friend'
-    name.textContent = item.name
+    name.textContent = (item.attributes.find((a) => a.trait_type === "Legendary") || {}).value || item.name.replace(/\s*#\d+/, "")
     desc.textContent = item.description
     pos.textContent = `${current + 1} of ${items.length}`
 
