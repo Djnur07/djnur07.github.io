@@ -473,3 +473,18 @@ main {
 @media (max-width: 640px) {
   .collection-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 }
+
+/* ---------- Pemberitahuan akun ---------- */
+.notice {
+  max-width: 520px;
+  margin-top: 8px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #FFF6EA;
+  border: 1px solid #E9C9A8;
+  border-radius: 8px;
+}
+.notice-title { font-size: 14px; font-weight: 700; color: #7A4A12; }
+.notice-text { margin: 0; font-size: 13px; line-height: 1.55; color: #5F4A38; }

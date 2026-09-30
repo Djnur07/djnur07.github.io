@@ -24,7 +24,7 @@ export function renderNav() {
 
   header.className = 'site-header'
   header.innerHTML = `
-    <a href="/" class="brand">Mochi Friend <span class="brand-by">by @ZelythMochi</span></a>
+    <a href="/" class="brand">Mochi Friend <span class="brand-by">by @zanymochi</span></a>
     <nav class="nav" aria-label="Main">
       ${links}
       <a href="${X_URL}" class="nav-x" target="_blank" rel="noopener" aria-label="@ZelythMochi on X">${X_ICON}</a>

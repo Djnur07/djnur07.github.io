@@ -13,7 +13,7 @@ const LARGE_SIZE = 1600   // gambar besar di jendela detail (px)
 // Trait tetap untuk koleksi Muse (boleh diganti)
 const MUSE_SERIES = 'The Silent Muse'
 const MUSE_MEDIUM = 'Generative code art'
-const MUSE_ARTIST = '@ZelythMochi'
+const MUSE_ARTIST = '@zanymochi'
 
 const FIELDS = [
   'kMDItemTitle', 'kMDItemDescription', 'kMDItemKeywords', 'kMDItemAuthors',
