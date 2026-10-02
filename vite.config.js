@@ -27,8 +27,8 @@ function seoTags() {
       const url = SITE + (path === '/404' ? '/' : path)
       const tags = `
     <meta name="description" content="${description}" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png?v=2" />
+    <link rel="apple-touch-icon" href="/favicon.png?v=2" />
     <link rel="canonical" href="${url}" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Mochi Friend" />
