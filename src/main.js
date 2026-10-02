@@ -117,3 +117,10 @@ async function setupGallery(kind, { dataUrl, eyebrow }) {
 
 const page = document.body.dataset.page
 if (GALLERIES[page]) setupGallery(page, GALLERIES[page])
+
+// Video Home: jangan diputar otomatis untuk pengunjung yang memilih "kurangi gerakan"
+const heroVideo = document.querySelector('.hero-video')
+if (heroVideo && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  heroVideo.removeAttribute('autoplay')
+  heroVideo.pause()
+}
