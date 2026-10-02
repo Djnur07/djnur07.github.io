@@ -679,3 +679,6 @@ body[data-page="home"] .mochi-cluster .mc-name {
 .hero-video { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; background: var(--bg); }
 body[data-page="home"] .split-media::before,
 body[data-page="home"] .split-media::after { content: none; }
+
+/* Home: keterangan video di tengah */
+body[data-page="home"] .split-media figcaption { text-align: center; }
