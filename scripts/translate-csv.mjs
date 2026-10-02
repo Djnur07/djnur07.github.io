@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import { homedir } from 'node:os'
 import { LEGENDARY_EN } from './legendary-en.mjs'
 
-const BASE = join(homedir(), 'Documents', 'Mochi Friend NFT')
+const BASE = join(homedir(), 'Documents', 'PROJECT NFT', 'mochi friend NFT')
 const FILES = ['metadata.csv', 'opensea-metadata.csv']
 
 // Nama terpanjang diganti dulu, supaya "Penyihir Bintang" tidak berubah jadi "Witch Bintang"

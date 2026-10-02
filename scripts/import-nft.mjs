@@ -6,9 +6,9 @@ import { homedir } from 'node:os'
 import { execFileSync } from 'node:child_process'
 import { toEnglish } from './legendary-en.mjs'
 
-const SOURCE = join(homedir(), 'Documents', 'Mochi Friend NFT')
+const SOURCE = join(homedir(), 'Documents', 'PROJECT NFT', 'mochi friend NFT')
 const MOCHI_FROM = 1
-const MOCHI_TO = 50
+const MOCHI_TO = 150
 const LEGENDARY_COUNT = 10
 const THUMB_SIZE = 400   // lebar thumbnail (px)
 const RARE_PERCENT = 2   // trait yang muncul ≤ 2% ditandai "Rare"
@@ -55,7 +55,7 @@ function prepare(m, folder) {
   const src = join(SOURCE, 'images', `${m.id}.png`)
   mkdirSync(`public/${folder}/images`, { recursive: true })
   mkdirSync(`public/${folder}/thumbs`, { recursive: true })
-  copyFileSync(src, `public/${folder}/images/${m.id}.png`)
+  execFileSync("sips", ["-Z", "1200", src, "--out", `public/${folder}/images/${m.id}.png`], { stdio: "ignore" })
   execFileSync('sips', ['-Z', String(THUMB_SIZE), src, '--out', `public/${folder}/thumbs/${m.id}.png`], { stdio: 'ignore' })
 
   return {

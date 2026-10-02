@@ -496,3 +496,53 @@ main {
 /* Tautan di kotak pemberitahuan */
 .notice-text a { color: #7A4A12; font-weight: 700; }
 .notice-text a:hover { color: #4A2C0A; }
+
+/* ---------- Filter trait (Mochi) ---------- */
+.filters { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 12px; margin-bottom: 18px; }
+.filter { display: flex; flex-direction: column; gap: 4px; }
+.filter-label { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--soft); }
+.filter select {
+  height: 40px;
+  min-width: 120px;
+  padding: 0 10px;
+  border: 1px solid #D8CEC4;
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+}
+.filter select:focus { outline: none; border-color: var(--ink); }
+.filter-reset {
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.filter-reset:hover { background: var(--ink); color: #FFFFFF; }
+.grid-empty { grid-column: 1 / -1; margin: 24px 0; font-size: 14px; color: var(--muted); }
+
+/* ---------- Halaman Mochi (Previous / Next) ---------- */
+.pager { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 20px; }
+.pager[hidden] { display: none; }
+.pager-btn {
+  height: 40px;
+  padding: 0 18px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.pager-btn:hover:not(:disabled) { background: var(--ink); color: #FFFFFF; }
+.pager-btn:disabled { opacity: 0.35; cursor: default; }
+.pager-status { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }

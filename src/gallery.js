@@ -11,6 +11,30 @@ function thumbMedia(item) {
   return ''
 }
 
+// Gambar ulang isi grid (dipakai juga oleh filter)
+export function renderGrid(grid, items, offset = 0) {
+  if (!items.length) {
+    grid.innerHTML = '<p class="grid-empty">No keepers match these traits.</p>'
+    return
+  }
+  grid.innerHTML = items.map((item, index) => {
+    const hasRare = (item.attributes || []).some((a) => a.rare && a.trait_type !== 'Type')
+    // Mochi: tanpa label. Legendary: nama karakter. Chibi/Muse: judul karya.
+    const label = attr(item, 'Legendary') || attr(item, 'Character') || (item.media ? item.name : '')
+    const isVideo = item.media === 'video'
+
+    return `
+      <button class="thumb" type="button" data-index="${offset + index}" aria-label="Open ${label || item.name}">
+        <span class="thumb-img">
+          ${thumbMedia(item)}
+          ${hasRare ? '<span class="rare-dot" title="Has a rare trait"></span>' : ''}
+          ${isVideo ? `<span class="play-badge">${PLAY_ICON}</span>` : ''}
+        </span>
+        ${label ? `<span class="thumb-label">${label}</span>` : ''}
+      </button>`
+  }).join('')
+}
+
 export async function initGallery({ dataUrl, kind }) {
   const grid = document.getElementById('grid')
   const count = document.getElementById('count')
@@ -22,22 +46,6 @@ export async function initGallery({ dataUrl, kind }) {
     count.textContent = count.dataset.caption || (kind === 'legendary' ? `${items.length} one-of-ones` : '')
   }
 
-  grid.innerHTML = items.map((item, index) => {
-    const hasRare = (item.attributes || []).some((a) => a.rare && a.trait_type !== 'Type')
-    // Mochi: tanpa label. Legendary: nama karakter. Chibi/Muse: judul karya.
-    const label = attr(item, 'Legendary') || attr(item, 'Character') || (item.media ? item.name : '')
-    const isVideo = item.media === 'video'
-
-    return `
-      <button class="thumb" type="button" data-index="${index}" aria-label="Open ${label || item.name}">
-        <span class="thumb-img">
-          ${thumbMedia(item)}
-          ${hasRare ? '<span class="rare-dot" title="Has a rare trait"></span>' : ''}
-          ${isVideo ? `<span class="play-badge">${PLAY_ICON}</span>` : ''}
-        </span>
-        ${label ? `<span class="thumb-label">${label}</span>` : ''}
-      </button>`
-  }).join('')
-
+  renderGrid(grid, items)
   return items
 }

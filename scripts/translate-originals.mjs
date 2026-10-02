@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import { homedir } from 'node:os'
 import { toEnglish } from './legendary-en.mjs'
 
-const BASE = join(homedir(), 'Documents', 'Mochi Friend NFT')
+const BASE = join(homedir(), 'Documents', 'PROJECT NFT', 'mochi friend NFT')
 const DIR = join(BASE, 'metadata')
 const BACKUP = join(BASE, 'metadata-backup-id')
 

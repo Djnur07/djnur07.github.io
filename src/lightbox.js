@@ -2,7 +2,7 @@ const ICON_PREV = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" s
 const ICON_NEXT = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>'
 const ICON_CLOSE = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>'
 
-export function initLightbox(items, { eyebrow } = {}) {
+export function initLightbox(items, { eyebrow, onShow, onClose } = {}) {
   const dialog = document.createElement('dialog')
   dialog.className = 'lightbox'
   dialog.innerHTML = `
@@ -55,7 +55,6 @@ export function initLightbox(items, { eyebrow } = {}) {
       return
     }
 
-    // Gambar: tampilkan thumbnail dulu, lalu ganti ke versi besar
     const img = document.createElement('img')
     img.className = 'lb-img'
     img.alt = title
@@ -75,7 +74,6 @@ export function initLightbox(items, { eyebrow } = {}) {
     const item = items[current]
     const attrs = item.attributes || []
 
-    // Judul tanpa nomor token; Legendary pakai nama karakter
     const type = attrs.find((a) => a.trait_type === 'Type')
     const legendary = attrs.find((a) => a.trait_type === 'Legendary')
     const title = legendary ? legendary.value : String(item.name || '').replace(/\s*#\d+/, '')
@@ -101,6 +99,7 @@ export function initLightbox(items, { eyebrow } = {}) {
 
     pos.textContent = `${current + 1} of ${items.length}`
     renderMedia(item, title)
+    if (onShow) onShow(item)
   }
 
   dialog.addEventListener('click', (e) => {
@@ -116,15 +115,20 @@ export function initLightbox(items, { eyebrow } = {}) {
     if (e.key === 'ArrowRight') show(current + 1)
   })
 
-  // Hentikan video saat jendela ditutup
+  // Hentikan video saat ditutup
   dialog.addEventListener('close', () => {
     media.innerHTML = ''
+    if (onClose) onClose()
   })
 
   return {
     open(index) {
+      if (!items.length) return
       show(index)
       dialog.showModal()
+    },
+    destroy() {
+      dialog.remove()
     },
   }
 }
