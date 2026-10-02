@@ -488,3 +488,11 @@ main {
 }
 .notice-title { font-size: 14px; font-weight: 700; color: #7A4A12; }
 .notice-text { margin: 0; font-size: 13px; line-height: 1.55; color: #5F4A38; }
+
+/* Tautan di kotak pemberitahuan */
+.notice-text a { color: #7A4A12; font-weight: 700; }
+.notice-text a:hover { color: #4A2C0A; }
+
+/* Tautan di kotak pemberitahuan */
+.notice-text a { color: #7A4A12; font-weight: 700; }
+.notice-text a:hover { color: #4A2C0A; }

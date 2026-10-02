@@ -4,7 +4,7 @@ const LINKS = [
   { href: '/about/', label: 'About', pages: ['about'] },
 ]
 
-const X_URL = 'https://x.com/ZelythMochi'
+const X_URL = 'https://x.com/Dzany_Mochi'
 
 const X_ICON = `
   <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
@@ -24,9 +24,9 @@ export function renderNav() {
 
   header.className = 'site-header'
   header.innerHTML = `
-    <a href="/" class="brand">Mochi Friend <span class="brand-by">by @zanymochi</span></a>
+    <a href="/" class="brand">Mochi Friend <span class="brand-by">by @Dzany_Mochi</span></a>
     <nav class="nav" aria-label="Main">
       ${links}
-      <a href="${X_URL}" class="nav-x" target="_blank" rel="noopener" aria-label="@ZelythMochi on X">${X_ICON}</a>
+      <a href="${X_URL}" class="nav-x" target="_blank" rel="noopener" aria-label="@Dzany_Mochi on X">${X_ICON}</a>
     </nav>`
 }

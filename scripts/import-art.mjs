@@ -13,7 +13,8 @@ const LARGE_SIZE = 1600   // gambar besar di jendela detail (px)
 // Trait tetap untuk koleksi Muse (boleh diganti)
 const MUSE_SERIES = 'The Silent Muse'
 const MUSE_MEDIUM = 'Generative code art'
-const MUSE_ARTIST = '@zanymochi'
+const MUSE_ARTIST = '@Dzany_Mochi'
+const rename = (s) => String(s || '').replaceAll('Dinar Jaya Nurahman', '@Dzany_Mochi').replace(/ZelythMochi/gi, 'Dzany_Mochi').replace(/Zelyth/gi, 'Dzany')
 
 const FIELDS = [
   'kMDItemTitle', 'kMDItemDescription', 'kMDItemKeywords', 'kMDItemAuthors',
@@ -46,7 +47,7 @@ const toSlug = (stem) => stem.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(
 const listFiles = (dir, exts) =>
   readdirSync(dir).filter((f) => exts.includes(extname(f).toLowerCase())).sort()
 
-const cleanKeywords = (m) => [...new Set((m.kMDItemKeywords || []).map((k) => String(k).trim()).filter(Boolean))]
+const cleanKeywords = (m) => [...new Set((m.kMDItemKeywords || []).map((k) => rename(String(k).trim())).filter(Boolean))]
 
 function formatDuration(seconds) {
   const s = Math.round(seconds)
@@ -60,10 +61,10 @@ function prepareFolder(out, subfolders) {
 
 // Metadata dasar dari Get Info
 function buildMeta(stem, m) {
-  const authors = (m.kMDItemAuthors || []).join(', ')
+  const authors = rename((m.kMDItemAuthors || []).join(', '))
   const attributes = []
   if (authors) attributes.push({ trait_type: 'Artist', value: authors })
-  if (m.kMDItemCopyright) attributes.push({ trait_type: 'Copyright', value: m.kMDItemCopyright })
+  if (m.kMDItemCopyright) attributes.push({ trait_type: 'Copyright', value: rename(m.kMDItemCopyright) })
 
   return {
     name: m.kMDItemTitle || toTitle(stem),
